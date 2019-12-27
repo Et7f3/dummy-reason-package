@@ -1,0 +1,37 @@
+{
+  "checksum": "e6049bda9b7053afd2f91792dd461195",
+  "root": "dummy-reason-package@link-dev:./package.json",
+  "node": {
+    "dummy-reason-package@link-dev:./package.json": {
+      "id": "dummy-reason-package@link-dev:./package.json",
+      "name": "dummy-reason-package",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [
+        "dummy-esy-package@github:Et7f3/dummy-esy-package#d6b20116f20407bd0cfbbc8957da5e1c818feae5@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
+    "dummy-esy-package@github:Et7f3/dummy-esy-package#d6b20116f20407bd0cfbbc8957da5e1c818feae5@d41d8cd9": {
+      "id":
+        "dummy-esy-package@github:Et7f3/dummy-esy-package#d6b20116f20407bd0cfbbc8957da5e1c818feae5@d41d8cd9",
+      "name": "dummy-esy-package",
+      "version":
+        "github:Et7f3/dummy-esy-package#d6b20116f20407bd0cfbbc8957da5e1c818feae5",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:Et7f3/dummy-esy-package#d6b20116f20407bd0cfbbc8957da5e1c818feae5"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}

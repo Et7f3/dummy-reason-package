@@ -1,0 +1,15 @@
+{
+  "name": "dummy-reason-package",
+  "esy": {
+    "build": "echo DUMMY_EXPORTED_ENV:'#{$DUMMY_EXPORTED_ENV}', DUMMY_ENV:'#{$DUMMY_ENV}'",
+    "buildEnv": {
+      "DUMMY_ENV": "C"
+    }
+  },
+  "dependencies": {
+    "dummy-esy-package": "*"
+  },
+  "resolutions": {
+    "dummy-esy-package": "github:Et7f3/dummy-esy-package#d6b20116f20407bd0cfbbc8957da5e1c818feae5"
+  }
+}
